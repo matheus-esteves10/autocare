@@ -1,0 +1,27 @@
+.entrada {
+    align-self: end;
+    min-width: 10%;
+    max-width: 80%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.resposta {
+    align-self: start;
+    min-width: 10%;
+    max-width: 80%;
+    background-color: #add7e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 15px;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.texto {
+    font-size: 3rem;
+    word-wrap: break-word;
+}

@@ -1,0 +1,99 @@
+.titulo {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    color: #ddd;
+}
+  
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+  
+.container {
+    border-radius: 30px;
+    border: 3px solid #fff;
+    font-size: 3rem;
+    min-width: 600px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    background-color: #bde7ff;
+    transition: background .3s ease-in-out, color .3s ease-in-out;
+  
+    &:hover {
+      background-color: #2d69ec;
+      color: #fff;
+    }
+}
+  
+.foto {
+    border-radius: 360px;
+    width: 10vw;
+    height: auto;
+}
+  
+.github {
+    width: 40px;
+    height: auto;
+    margin-top: 15px;
+}
+  
+#containerLink {
+    height: 110px;
+    color: #000;
+}
+  
+#linkRepo {
+    font-size: 3rem;
+}
+
+@media screen and (max-width:922px) {
+    & html {
+      font-size: 50%;
+    }
+  
+    .foto {
+      min-width: 17vw;
+      min-height: 17vw;
+    }
+  }
+  
+  
+  @media screen and (max-width:670px) {
+    & html {
+      font-size: 40%;
+    }
+  
+    & h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .container {
+      min-width: 15vw;
+    }
+  
+    .foto {
+      min-width: 20vw;
+      min-height: auto;
+      margin-top: 8vw;
+    }
+  
+    .container {
+      flex-direction: column;
+      height: 80vw;
+      min-width: 45vw;
+    }
+  
+    .github {
+      margin-top: auto;
+    }
+  }

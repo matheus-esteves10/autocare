@@ -1,0 +1,103 @@
+.container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 89vh;
+    background-image: url("/assets/img/bg-login.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxLogin {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 460px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+.boxLogin .titulo {
+    color: #fff;
+    font-size: 2.8rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+.boxLogin form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.boxLogin input {
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 48px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding-left: 16px;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    border-radius: 10px;
+
+    &:focus {
+        border: 2px solid rgba(255, 255, 255, .4);
+    }
+
+    &::placeholder {
+        color: #ccc;
+    }
+}
+.boxLogin button {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 48px;
+    font-size: 1.8rem;
+    background-color: #00194a;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+
+    &:hover {
+        background-color: #011234;
+    }
+}
+.boxLogin .divisor {
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    opacity: .2;
+}
+.boxLogin a {
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.boxLogin p {
+    color: #900;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    visibility: hidden;
+}
+.boxLogin.erro p {
+    visibility: visible;
+}

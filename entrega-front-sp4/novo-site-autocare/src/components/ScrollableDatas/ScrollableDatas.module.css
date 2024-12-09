@@ -1,0 +1,46 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.selecione {
+    color: #ddddddee;
+    font-size: 3rem;
+}
+
+.boxSelecao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divDatas {
+    background-color: transparent;
+    display: inline-flex;
+    width: 410px;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.botao {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    & img {
+        width: 25px;
+    }
+}
+
+.botaoBack {
+    transform: rotate(180deg);
+}

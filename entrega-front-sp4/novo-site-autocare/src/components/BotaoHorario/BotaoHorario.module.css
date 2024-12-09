@@ -1,0 +1,21 @@
+.botaoHorario {
+    min-width: 100px;
+    min-height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: #669cf6;
+    color: #0a0f18;
+    font-weight: 600;
+    transition: background-color color .5s ease-in-out;
+}
+
+.botaoHorario:hover {
+    background-color: #3647e6;
+    color: #eee;
+}
+
+.selected {
+    background-color: #3647e6;
+    color: #eee;
+}

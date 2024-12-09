@@ -1,0 +1,17 @@
+.titulo {
+    color: #ddddddee;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.divCards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.selecioneData {
+    font-size: 1.8rem;
+    color: #ddd;
+}
